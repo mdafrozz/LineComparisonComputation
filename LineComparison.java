@@ -13,7 +13,12 @@ public class LineComparison {
         {
             System.out.println(("Both lines are equal"));
         }
-       
+        else if (Float.compare(a, b) < 0) {
+            System.out.println(("Both lines are less"));
+        }
+        else if (Float.compare(a, b) > 0) {
+            System.out.println(("Both lines are greater"));
+        }
         else {
             System.out.println("Both are not equal");
         }
